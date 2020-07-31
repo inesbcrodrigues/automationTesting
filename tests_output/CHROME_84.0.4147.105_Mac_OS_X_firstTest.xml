@@ -5,9 +5,9 @@
 
   <testsuite name="firstTest"
     errors="0" failures="0" hostname="" id="" package="firstTest" skipped="0"
-    tests="1" time="2.494" timestamp="">
+    tests="1" time="3.587" timestamp="">
   
-    <testcase name="My first test case" classname="firstTest" time="2.494" assertions="2">
+    <testcase name="My first test case" classname="firstTest" time="3.587" assertions="2">
 
     
 
@@ -15,6 +15,12 @@
     </testcase>
   
 
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .getText() command on &lt;[aria-label=&#34;Search Italian pages&#34;]&gt;: 
+   {&#34;sessionId&#34;:&#34;54b2e77d1181751c8bc3e285e74dc462&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
   
 
     
